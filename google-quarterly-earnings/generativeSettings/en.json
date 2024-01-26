@@ -1,0 +1,12 @@
+{
+  "fallbackSettings": {
+    "selectedPrompt": "Default"
+  },
+  "languageCode": "en",
+  "knowledgeConnectorSettings": {
+    "business": "Waheed's Workbench"
+  },
+  "llmModelSettings": {
+    "model": "gemini-pro"
+  }
+}
