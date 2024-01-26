@@ -9,8 +9,6 @@
   }, {
     "text": "If necessary, seek clarifying details."
   }, {
-    "text": "Use ${TOOL: Google Quarterly Earnings Tool} to help the user with their task."
-  }, {
     "text": "Thank the user for their business and say goodbye."
   } ],
   "referencedTools": [ "projects/waheed-brown-sandbox/locations/us-central1/agents/5617ca0a-76c7-4ee5-9c77-dc9a0d5959d4/tools/a426e75a-9419-4169-8baf-80b841568a8d" ]

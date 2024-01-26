@@ -1,0 +1,105 @@
+{
+  "name": "3603c57e-8dd6-48a2-a2de-297d4f4f361a",
+  "actions": [ {
+    "userUtterance": {
+      "text": "What was google's earnings in 2021?"
+    }
+  }, {
+    "toolUse": {
+      "tool": "projects/waheed-brown-sandbox/locations/us-central1/agents/5617ca0a-76c7-4ee5-9c77-dc9a0d5959d4/tools/a426e75a-9419-4169-8baf-80b841568a8d",
+      "action": "Google Quarterly Earnings Tool",
+      "inputParameters": [ {
+        "name": "requestBody",
+        "value": {
+          "query": "What was google's earnings in 2021?"
+        }
+      } ],
+      "outputParameters": [ {
+        "name": "200",
+        "value": {
+          "answer": "Google's revenues in 2021 were $182312 million.",
+          "snippets": [ {
+            "text": "For comparative purposes, amounts in prior periods have been recast: Three Months Ended Nine Months Ended September 30, September 30, 2020 2021 2020 2021 Revenues: Google Services $ 42573 $ 59884 $ 115762 $ 168129 Google Cloud 3444 4990 9228 13665 Other Bets 178 182 461 572 Hedging gains (losses) (22) 62 178 (54) Total revenues $ 46173 $ 65118 $ 125629 $ 182312 Table of Contents Alphabet Inc. 31.",
+            "title": "GOOG 10-Q Q3 2021",
+            "uri": "https://storage.cloud.google.com/waheedbrown-alphabet-earnings-reports/2021-q3-alphabet-10q.pdf#page=31"
+          } ]
+        }
+      } ]
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Google's revenues in 2021 were $182312 million."
+    }
+  }, {
+    "userUtterance": {
+      "text": "What products were profitable for Google in 2020?"
+    }
+  }, {
+    "toolUse": {
+      "tool": "projects/waheed-brown-sandbox/locations/us-central1/agents/5617ca0a-76c7-4ee5-9c77-dc9a0d5959d4/tools/a426e75a-9419-4169-8baf-80b841568a8d",
+      "action": "Google Quarterly Earnings Tool",
+      "inputParameters": [ {
+        "name": "requestBody",
+        "value": {
+          "query": "What products were profitable for Google in 2020?"
+        }
+      } ],
+      "outputParameters": [ {
+        "name": "200",
+        "value": {
+          "answer": "Google's other revenues increased $4697 million from 2019 to 2020. The growth was primarily driven by Google Play and YouTube non-advertising. Growth for Google Play was primarily driven by sales of apps and in-app purchases, which benefited from elevated user engagement partially due to the impact of COVID-19.",
+          "snippets": [ {
+            "text": "Google other revenues increased $4697 million from 2019 to 2020. The growth was primarily driven by Google Play and YouTube non-advertising. Growth for Google Play was primarily driven by sales of apps and in-app purchases, which benefited from elevated user engagement partially due to the impact of COVID-19.",
+            "title": "GOOG 10-K Q4 2020",
+            "uri": "https://storage.cloud.google.com/waheedbrown-alphabet-earnings-reports/20210203-alphabet-10k.pdf#page=37"
+          }, {
+            "text": "The following table presents our Google advertising revenues (in millions, unaudited): Three Months Ended Nine Months Ended September 30, September 30, 2019 2020 2019 2020 Google Search \u0026 other $ 24741 $ 26338 $ 70930 $ 72159 YouTube ads(1) 3804 5037 10432 12887 Google Network Members' properties 5251 5720 15515 15679 Google advertising $ 33796 $ 37095 $ 96877 $ 100725 Google advertising revenues as a percentage of Google segment revenues 84.0 % 80.6 % 84.3 % 80.6 % (1) YouTube non-advertising revenues are included in Google other revenues. Table of Contents Alphabet Inc. 37.",
+            "title": "GOOG 10-Q Q3 2020",
+            "uri": "https://storage.cloud.google.com/waheedbrown-alphabet-earnings-reports/20201030-alphabet-10q.pdf#page=39"
+          } ]
+        }
+      } ]
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Google's other revenues increased $4697 million from 2019 to 2020. The growth was primarily driven by Google Play and YouTube non-advertising. Growth for Google Play was primarily driven by sales of apps and in-app purchases, which benefited from elevated user engagement partially due to the impact of COVID-19."
+    }
+  }, {
+    "userUtterance": {
+      "text": "What was Google's business strategy in 2022?"
+    }
+  }, {
+    "toolUse": {
+      "tool": "projects/waheed-brown-sandbox/locations/us-central1/agents/5617ca0a-76c7-4ee5-9c77-dc9a0d5959d4/tools/a426e75a-9419-4169-8baf-80b841568a8d",
+      "action": "Google Quarterly Earnings Tool",
+      "inputParameters": [ {
+        "name": "requestBody",
+        "value": {
+          "query": "What was Google's business strategy in 2022?"
+        }
+      } ],
+      "outputParameters": [ {
+        "name": "200",
+        "value": {
+          "answer": "Google's business strategy in 2022 was to continue innovating and building new products and features that will help their users, partners, customers, and communities. They have invested more than $100 billion in research and development in the last five years in support of these efforts.",
+          "snippets": [ {
+            "text": "We are continually innovating and building new products and features that will help our users, partners, customers, and communities and have invested more than $100 billion in research and development in the last five years in support of these efforts. Table of Contents Alphabet Inc. 4.",
+            "title": "GOOG 10-K Q4 2022-2023-02-14-11-13",
+            "uri": "https://storage.cloud.google.com/waheedbrown-alphabet-earnings-reports/goog-10-k-q4-2022.pdf#page=5"
+          } ]
+        }
+      } ]
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Google's business strategy in 2022 was to continue innovating and building new products and features that will help their users, partners, customers, and communities. They have invested more than $100 billion in research and development in the last five years in support of these efforts."
+    }
+  } ],
+  "playbookOutput": {
+    "executionSummary": "Successfully answered questions based on ${TOOL: Google Quarterly Earnings Tool}",
+    "state": "OK"
+  },
+  "displayName": "Google Quarterly Earnings Questions",
+  "retrievalStrategy": "DEFAULT",
+  "conversationState": "OUTPUT_STATE_OK"
+}
